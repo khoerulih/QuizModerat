@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--    Splash Screen -->
+    <style name="Theme.QuizModerat.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/dark_green</item>
+        <item name="windowSplashScreenAnimatedIcon">
+            @mipmap/ic_launcher_adaptive_fore
+        </item>
+        <item name="windowSplashScreenAnimationDuration" >2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.QuizModerat</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizModerat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorSecondary">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/soft_green</item>
+        <item name="colorOnSecondary">@color/softer_green</item>
+    </style>
+
+    <style name="Theme.QuizModerat" parent="Base.Theme.QuizModerat">
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="AuthButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circle</item>
+    </style>
+</resources>

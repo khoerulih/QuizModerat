@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">QuizModerat</string>
+    <string name="to_register_screen">Belum Punya Akun? <b><u><font color="#81B214">Daftar Akun</font></u></b></string>
+    <string name="to_login_page">Sudah Punya Akun? <b><u><font color="#81B214">Login</font></u></b></string>
+    <string name="password_hint">Masukkan Kata Sandi</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="email_hint">Masukkan Email Anda</string>
+    <string name="email">Email</string>
+    <string name="login_heading">Selamat Datang</string>
+    <string name="login_subheading">Silahkan login untuk melanjutkan</string>
+    <string name="register_heading">Buat Akun Baru</string>
+    <string name="register_subheading">Silahkan isi form di bawah untuk membuat akun</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
+    <string name="forget_password">Lupa Kata Sandi?</string>
+    <string name="reset_kata_sandi">Reset Kata Sandi</string>
+    <string name="forget_password_subtitle">Masukkan email untuk melakukan reset kata sandi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ubah_kata_sandi">Ubah Kata Sandi</string>
+    <string name="silahkan_ubah_dengan_kata_sandi_baru">Silahkan Ubah Dengan Kata Sandi Baru</string>
+    <string name="ulang_kata_sandi">Ulang Kata Sandi</string>
+    <string name="masukkan_kembali_kata_sandi">Masukkan Kembali Kata Sandi</string>
+    <string name="selamat_datang">Selamat Datang!</string>
+    <string name="greeting">Halo, %1$s</string>
+    <string name="lihat_semua"><u>Lihat Semua</u></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="materi_title">Daftar Materi</string>
+    <string name="materi_subtitle">Pilih dan pelajari materi moderasi beragama yang ingin dipelajari, kemudian ikuti quiznya.</string>
+    <string name="history_title">Riwayat</string>
+    <string name="history_subtitle">Histori pengerjaan quiz ditampilkan disini</string>
+    <string name="profile_title">Profil</string>
+    <string name="profile_subtitle">Cek informasi pengguna dan aplikasi</string>
+    <string name="rules">
+        • Anda harus memastikan sinyal internet saat ini <b>stabil</b> agar bisa mengerjakan soal dengan baik.\n\n
+        • Terdapat 4 pilihan dalam setiap soal pilihan ganda dengan <b>1 jawaban benar</b>.\n\n
+        • Hasil dari pengerjaan quiz ini adalah <b>20%</b> dari keseluruhan nilai tes moderasi beragama.\n\n
+        • Anda dapat mengulang quiz materi ini sebanyak <b>3 kali</b> dan yang diambil adalah <b>nilai tertinggi</b>.\n
+    </string>
+
+    <string name="materi_progress">Progress: %1$d%%</string>
+    <string name="all_progress">%1$d%%</string>
+    <string name="overall_status">Status : %1$s</string>
+    <string name="status_subtitle_baik">Anda sudah memiliki pemahaman moderasi beragama yang baik</string>
+    <string name="status_subtitle_cukup">Anda sudah mulai memiliki pemahaman moderasi beragama</string>
+    <string name="status_subtitle_kurang">Anda perlu membaca lebih banyak materi mengenai moderasi beragama</string>
+    <string name="estimated_time">%1$d Menit</string>
+    <string name="percentage">%1$d%%</string>
+    <string name="question_count">Pertanyaan ke-%1$d dari %2$d</string>
+    <string name="result_quiz_title">Hasil %1$s</string>
+    <string name="result_description">Anda berhasil menjawab soal dengan benar sebanyak <b>%1$d%%</b> dari keseluruhan soal yang diberikan pada materi moderasi beragama ini</string>
+    <string name="result_grade">Nilai Pemahaman: <b>%1$s</b></string>
+
+    <string-array name="data_title">
+        <item>Materi 1</item>
+        <item>Materi 2</item>
+        <item>Materi 3</item>
+        <item>Materi 4</item>
+    </string-array>
+    <string-array name="data_pemahaman">
+        <item>Pemahaman: 75%</item>
+        <item>Pemahaman: 100%</item>
+        <item>Pemahaman: 20%</item>
+        <item>Pemahaman: 30%</item>
+    </string-array>
+    <integer-array name="data_progress">
+        <item>75</item>
+        <item>100</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="data_icon">
+        <item>@drawable/brain</item>
+        <item>@drawable/exam</item>
+        <item>@drawable/news_broadcast</item>
+        <item>@drawable/idea</item>
+    </integer-array>
+
+    <integer-array name="data_skor">
+        <item>80</item>
+        <item>70</item>
+        <item>40</item>
+        <item>20</item>
+    </integer-array>
+
+    <string-array name="data_datetime">
+        <item>20 Juni 2023</item>
+        <item>22 Juni 2023</item>
+        <item>23 Juni 2023</item>
+        <item>25 Juni 2023</item>
+    </string-array>
+
+    <integer-array name="data_icon_rules">
+        <item>@drawable/ic_checklist_24</item>
+        <item>@drawable/ic_history_24</item>
+        <item>@drawable/ic_percent_24</item>
+    </integer-array>
+
+    <string-array name="data_rules">
+        <item>20</item>
+        <item>5 Menit</item>
+        <item>20%</item>
+    </string-array>
+
+    <string-array name="data_rules_description">
+        <item>Pertanyaan Pilihan Ganda</item>
+        <item>Perkiraan Waktu Pengerjaan</item>
+        <item>Dari Persentase Total Penilaian</item>
+    </string-array>
+
+    <!-- Firebase Error -->
+    <string name="error_register_default">Register Gagal</string>
+    <string name="error_login_default">Login Gagal</string>
+    <string name="error_custom_token">The custom token format is incorrect. Please check the documentation.</string>
+    <string name="error_custom_token_mismatch">The custom token corresponds to a different audience.</string>
+    <string name="error_credential_malformed_or_expired">The supplied auth credential is malformed or has expired.</string>
+    <string name="error_invalid_email">Error: Email tidak sesuai format.</string>
+    <string name="error_wrong_password">Error: Email/Kata Sandi tidak sesuai.</string>
+    <string name="error_user_mismatch">The supplied credentials do not correspond to the previously signed in user.</string>
+    <string name="error_requires_recent_login">This operation is sensitive and requires recent authentication. Log in again before retrying this request.</string>
+    <string name="error_accounts_exits_with_different_credential">An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address.</string>
+    <string name="error_email_already_in_use">Error: Email sudah digunakan oleh akun lain</string>
+    <string name="error_credential_already_in_use">This credential is already associated with a different user account.</string>
+    <string name="error_user_disabled">Error: Akun ini dinonaktifkan oleh admin.</string>
+    <string name="error_user_not_found">Error: Akun dengan email tersebut tidak ditemukan.</string>
+    <string name="error_password_is_weak">Error: Kata sandi lemah, coba kata sandi lain dengan kombinasi huruf, angka dan simbol.</string>
+    <string name="error_user_token_expired">The user\'s credential is no longer valid. The user must sign in again</string>
+    <string name="error_invalid_user_token">The user\'s credential is no longer valid. The user must sign in again.</string>
+    <string name="mohon_tunggu">Mohon Tunggu</string>
+    <string name="kembali_ke_halaman_awal">Kembali Ke Halaman Awal</string>
+    <string name="empty_quiz_history">Tidak ada data history quiz</string>
+</resources>

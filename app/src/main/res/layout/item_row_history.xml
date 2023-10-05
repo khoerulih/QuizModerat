@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/iv_skor_bg"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_skor_baik" />
+
+    <TextView
+        android:id="@+id/tv_skor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/iv_skor_bg"
+        app:layout_constraintEnd_toEndOf="@id/iv_skor_bg"
+        app:layout_constraintTop_toTopOf="@id/iv_skor_bg"
+        app:layout_constraintBottom_toBottomOf="@id/iv_skor_bg"
+        tools:text="28"/>
+
+    <TextView
+        android:id="@+id/tv_nomor_materi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        app:layout_constraintStart_toEndOf="@id/iv_skor_bg"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Materi 1" />
+
+    <TextView
+        android:id="@+id/tv_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="12sp"
+        android:textColor="@color/soft_green"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toEndOf="@id/iv_skor_bg"
+        app:layout_constraintTop_toBottomOf="@id/tv_nomor_materi"
+        tools:text="20 Juni 2023 23:59" />
+
+    <TextView
+        android:id="@+id/tv_keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_skor_bg"
+        app:layout_constraintBottom_toBottomOf="@id/iv_skor_bg"
+        tools:text="Baik"
+        tools:textColor="@color/dark_green"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
